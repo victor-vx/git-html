@@ -10,10 +10,6 @@ body{
     display: flex;
     height: 100vh;
     background-color: #1e272e;
-    background-image: url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-9770.jpg?t=st=1727379004~exp=1727382604~hmac=1d734b6f7207a14518b9d8be7c02789249fcbd3750c8ef3ff5ab67be946b8782&w=1380);
-    background-repeat: no-repeat;
-    background-size: 100%;
-
 }
 div{
     background: #2f3640;
@@ -21,7 +17,6 @@ div{
     padding: 2px 0 30px 0;
     border-radius: 5px;
     box-shadow: white 2px 2px 8px;
-    margin-right: 250px;
 }
 form input{
    width: 60%;
@@ -30,11 +25,13 @@ form input{
    border: 3px solid #345068;
    background-color: #2f3640;
    color: white;
+   outline: none;
 }
 #sub{
     width: 30%;
     font-size: medium;
-    padding: 6px;
+    padding: 8px;
+    border-radius: 10px;
 }
 form ::placeholder{
     font-size: medium;
