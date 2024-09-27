@@ -1,16 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
     justify-content: center;
     align-items: center;
     display: flex;
     height: 100vh;
+    background-color: #1e272e;
 }
 section{
-    background: rgba(0, 0, 0, 0.9);
+    background: #2f3640;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,24 +27,24 @@ div{
 input{
     padding: 15px;
     border: none;
-    background: rgba(0, 0, 0, 0.4);
+    background-color: #2f3640;
     border-radius: 5px;
     outline: none;
+    color: white;
 }
 .sub{
     width: 100%;
-    color: black;
+    color: white;
     font-size: 15px;
     font-weight: 500;
     border-radius: 10px;
 }
 h1{
     text-align: center;
-    font-style: italic;
-    text-decoration: underline;
+    font-size: 27px;
 }
 div ::placeholder{
-    color: black;
+    color: white;
     font-size: 15px;
     font-weight: 500;
 }
