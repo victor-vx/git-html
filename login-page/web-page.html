@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 100vh;
+            background: black;
+        }
+        div{
+            background: white;
+            padding: 35px 20px;
+            width: 300px;
+            border-radius: 7px;
+            box-shadow: 4px 4px 4px gray;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        form{
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        form input{
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+        }
+        #sub{
+            margin-top: 15px;
+            border-radius: 15px;
+            width: 50%;
+            margin-left: 77px;
+            padding: 10px;
+            font-size: medium;
+        }
+        label{
+            font-size: 15px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Login</h1>
+            <label>Usuario</label>
+            <input type="text">
+            <label>Senha</label>
+            <input type="password" name="senha">
+            <label>E-mail</label>
+            <input type="email" name="email">
+            <input id="sub" type="submit" value="Entrar">
+        </form>
+    </div>
+    
+</body>
+</html>
