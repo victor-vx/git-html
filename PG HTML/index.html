@@ -44,16 +44,18 @@
             background-color: rgb(16, 100, 226);
             color: white;
             cursor: pointer;
+            font-weight: 600;
+            font-size: medium;
+            border-radius: 18px;
         }
         label{
             margin-left: 20px;
             font-weight: 600;
             font-size: medium;
         }
-        .sub{
+        #container ::placeholder{
+            color: black;
             font-weight: 600;
-            font-size: medium;
-            border-radius: 15px;
         }
         .nav ul{
             background-color: rgba(255, 255, 255, 0.537);
@@ -83,10 +85,8 @@
     </nav>
     <div id="container">
             <img id="img" src="https://icon-library.com/images/free-user-icon/free-user-icon-5.jpg">
-            <label>E-mail</label>
-            <input type="email">
-            <label>Senha</label>
-            <input type="password" name="senha">
+            <input type="email" placeholder="E-mail">
+            <input type="password" name="senha" placeholder="Senha">
             <input class="sub" type="submit" value="Entrar">
     </div>
 </body>
