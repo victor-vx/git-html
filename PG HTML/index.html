@@ -43,6 +43,7 @@
             width: 90%;
             background-color: rgb(16, 100, 226);
             color: white;
+            cursor: pointer;
         }
         label{
             margin-left: 20px;
@@ -54,9 +55,32 @@
             font-size: medium;
             border-radius: 15px;
         }
+        .nav ul{
+            background-color: rgba(255, 255, 255, 0.537);
+            overflow: hidden;
+            list-style-type: none;
+        }
+        .nav a{
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        .nav li{
+            float: left;
+        }
     </style>
 </head>
 <body>
+    <nav class="nav">
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Sobre</a></li> 
+            <li><a href="">Contato</a></li> 
+            <li><a href="">Redes Socias</a></li>
+        </ul>
+    </nav>
     <div id="container">
             <img id="img" src="https://icon-library.com/images/free-user-icon/free-user-icon-5.jpg">
             <label>E-mail</label>
